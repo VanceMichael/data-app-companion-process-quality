@@ -1,0 +1,277 @@
+{
+  "format_version": 1,
+  "synthetic": true,
+  "tables": {
+    "visits": {
+      "description": "匿名辅助服务及复杂程度",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "服务"
+        },
+        "customer": {
+          "type": "string",
+          "description": "客户"
+        },
+        "type": {
+          "type": "string",
+          "description": "服务型"
+        },
+        "complexity": {
+          "type": "string",
+          "description": "复杂度"
+        },
+        "contract": {
+          "type": "string",
+          "description": "合同"
+        },
+        "service_day": {
+          "type": "integer",
+          "description": "服务实际日序"
+        }
+      },
+      "refs": {}
+    },
+    "contracts": {
+      "description": "费用与责任约定，不涉及诊疗",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "合同"
+        },
+        "rate_cents_per_hour": {
+          "type": "integer",
+          "description": "每小时分"
+        },
+        "free_wait_minutes": {
+          "type": "integer",
+          "description": "免费候诊"
+        },
+        "continuous_handover": {
+          "type": "boolean",
+          "description": "转接连续计时"
+        },
+        "unfinished_refund_fraction": {
+          "type": "number",
+          "description": "未完成事项退费比例"
+        }
+      },
+      "refs": {}
+    },
+    "obligations": {
+      "description": "事项依赖是业务要求，允许并行；新增标记与原约定不同",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "事项"
+        },
+        "visit": {
+          "type": "string",
+          "description": "服务"
+        },
+        "kind": {
+          "type": "string",
+          "description": "辅助事项"
+        },
+        "depends_on": {
+          "type": "array",
+          "description": "依赖事项"
+        },
+        "required_recipient": {
+          "type": "string",
+          "description": "交接接收方"
+        },
+        "origin": {
+          "type": "string",
+          "description": "原约定或新增"
+        }
+      },
+      "refs": {
+        "visit": "visits.id"
+      }
+    },
+    "events": {
+      "description": "时间为分钟；记录可冲突，由复核采用",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "记录"
+        },
+        "visit": {
+          "type": "string",
+          "description": "服务"
+        },
+        "obligation": {
+          "type": "string",
+          "description": "事项"
+        },
+        "actor": {
+          "type": "string",
+          "description": "提交方"
+        },
+        "minute": {
+          "type": "integer",
+          "description": "实际分钟"
+        },
+        "kind": {
+          "type": "string",
+          "description": "开始或结束或交接或取消或暂停"
+        },
+        "recipient": {
+          "type": "string",
+          "description": "接收方或空"
+        },
+        "reason": {
+          "type": "string",
+          "description": "原因"
+        },
+        "known_day": {
+          "type": "integer",
+          "description": "知悉日"
+        }
+      },
+      "refs": {
+        "visit": "visits.id",
+        "obligation": "obligations.id"
+      }
+    },
+    "waiting": {
+      "description": "医院等待的可证实区间",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "等待"
+        },
+        "visit": {
+          "type": "string",
+          "description": "服务"
+        },
+        "start": {
+          "type": "integer",
+          "description": "起"
+        },
+        "end": {
+          "type": "integer",
+          "description": "止"
+        },
+        "verified": {
+          "type": "boolean",
+          "description": "已核实"
+        }
+      },
+      "refs": {
+        "visit": "visits.id"
+      }
+    },
+    "handoffs": {
+      "description": "不同工作人员接手区间",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "接手"
+        },
+        "visit": {
+          "type": "string",
+          "description": "服务"
+        },
+        "worker": {
+          "type": "string",
+          "description": "人员"
+        },
+        "start": {
+          "type": "integer",
+          "description": "起"
+        },
+        "end": {
+          "type": "integer",
+          "description": "止"
+        },
+        "material_confirmed": {
+          "type": "boolean",
+          "description": "接手材料已确认"
+        }
+      },
+      "refs": {
+        "visit": "visits.id"
+      }
+    },
+    "adjudications": {
+      "description": "后补证据的正式采纳",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "裁定"
+        },
+        "visit": {
+          "type": "string",
+          "description": "服务"
+        },
+        "target": {
+          "type": "string",
+          "description": "原记录"
+        },
+        "finding": {
+          "type": "string",
+          "description": "采用事实"
+        },
+        "known_day": {
+          "type": "integer",
+          "description": "知悉日"
+        }
+      },
+      "refs": {
+        "visit": "visits.id"
+      }
+    },
+    "payments": {
+      "description": "已收客户费用及改进安排",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "支付"
+        },
+        "visit": {
+          "type": "string",
+          "description": "服务"
+        },
+        "amount_cents": {
+          "type": "integer",
+          "description": "金额"
+        },
+        "day": {
+          "type": "integer",
+          "description": "日序"
+        }
+      },
+      "refs": {
+        "visit": "visits.id"
+      }
+    },
+    "improvements": {
+      "description": "改进针对偏离类别，结项不裁定未决责任",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "改进"
+        },
+        "kind": {
+          "type": "string",
+          "description": "类别"
+        },
+        "start_day": {
+          "type": "integer",
+          "description": "起"
+        },
+        "complete_day": {
+          "type": "integer",
+          "description": "结束"
+        },
+        "workers": {
+          "type": "array",
+          "description": "人员"
+        }
+      },
+      "refs": {}
+    }
+  }
+}

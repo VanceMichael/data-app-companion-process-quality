@@ -1,0 +1,12 @@
+[
+  {
+    "id": "i1",
+    "kind": "材料交接",
+    "start_day": 8,
+    "complete_day": 10,
+    "workers": [
+      "甲",
+      "乙"
+    ]
+  }
+]

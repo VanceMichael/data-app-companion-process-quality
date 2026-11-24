@@ -1,0 +1,16 @@
+[
+  {
+    "id": "c0",
+    "rate_cents_per_hour": 8000,
+    "free_wait_minutes": 30,
+    "continuous_handover": true,
+    "unfinished_refund_fraction": 0.5
+  },
+  {
+    "id": "c1",
+    "rate_cents_per_hour": 9000,
+    "free_wait_minutes": 60,
+    "continuous_handover": false,
+    "unfinished_refund_fraction": 1
+  }
+]

@@ -1,0 +1,938 @@
+[
+  {
+    "id": "a0",
+    "visit": "v0",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a1",
+    "visit": "v0",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a2",
+    "visit": "v0",
+    "kind": "交接材料",
+    "depends_on": [
+      "a1"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a3",
+    "visit": "v1",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a4",
+    "visit": "v1",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a5",
+    "visit": "v1",
+    "kind": "交接材料",
+    "depends_on": [
+      "a4"
+    ],
+    "required_recipient": "家属",
+    "origin": "新增"
+  },
+  {
+    "id": "a6",
+    "visit": "v2",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a7",
+    "visit": "v2",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a8",
+    "visit": "v2",
+    "kind": "交接材料",
+    "depends_on": [
+      "a7"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a9",
+    "visit": "v3",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a10",
+    "visit": "v3",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a11",
+    "visit": "v3",
+    "kind": "交接材料",
+    "depends_on": [
+      "a10"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a12",
+    "visit": "v4",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a13",
+    "visit": "v4",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a14",
+    "visit": "v4",
+    "kind": "交接材料",
+    "depends_on": [
+      "a13"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a15",
+    "visit": "v5",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a16",
+    "visit": "v5",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a17",
+    "visit": "v5",
+    "kind": "交接材料",
+    "depends_on": [
+      "a16"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a18",
+    "visit": "v6",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a19",
+    "visit": "v6",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a20",
+    "visit": "v6",
+    "kind": "交接材料",
+    "depends_on": [
+      "a19"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a21",
+    "visit": "v7",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a22",
+    "visit": "v7",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a23",
+    "visit": "v7",
+    "kind": "交接材料",
+    "depends_on": [
+      "a22"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a24",
+    "visit": "v8",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a25",
+    "visit": "v8",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a26",
+    "visit": "v8",
+    "kind": "交接材料",
+    "depends_on": [
+      "a25"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a27",
+    "visit": "v9",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a28",
+    "visit": "v9",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a29",
+    "visit": "v9",
+    "kind": "交接材料",
+    "depends_on": [
+      "a28"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a30",
+    "visit": "v10",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a31",
+    "visit": "v10",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a32",
+    "visit": "v10",
+    "kind": "交接材料",
+    "depends_on": [
+      "a31"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a33",
+    "visit": "v11",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a34",
+    "visit": "v11",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a35",
+    "visit": "v11",
+    "kind": "交接材料",
+    "depends_on": [
+      "a34"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a36",
+    "visit": "v12",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a37",
+    "visit": "v12",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a38",
+    "visit": "v12",
+    "kind": "交接材料",
+    "depends_on": [
+      "a37"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a39",
+    "visit": "v13",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a40",
+    "visit": "v13",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a41",
+    "visit": "v13",
+    "kind": "交接材料",
+    "depends_on": [
+      "a40"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a42",
+    "visit": "v14",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a43",
+    "visit": "v14",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a44",
+    "visit": "v14",
+    "kind": "交接材料",
+    "depends_on": [
+      "a43"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a45",
+    "visit": "v15",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a46",
+    "visit": "v15",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a47",
+    "visit": "v15",
+    "kind": "交接材料",
+    "depends_on": [
+      "a46"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a48",
+    "visit": "v16",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a49",
+    "visit": "v16",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a50",
+    "visit": "v16",
+    "kind": "交接材料",
+    "depends_on": [
+      "a49"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a51",
+    "visit": "v17",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a52",
+    "visit": "v17",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a53",
+    "visit": "v17",
+    "kind": "交接材料",
+    "depends_on": [
+      "a52"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a54",
+    "visit": "v18",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a55",
+    "visit": "v18",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a56",
+    "visit": "v18",
+    "kind": "交接材料",
+    "depends_on": [
+      "a55"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a57",
+    "visit": "v19",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a58",
+    "visit": "v19",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a59",
+    "visit": "v19",
+    "kind": "交接材料",
+    "depends_on": [
+      "a58"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a60",
+    "visit": "v20",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a61",
+    "visit": "v20",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a62",
+    "visit": "v20",
+    "kind": "交接材料",
+    "depends_on": [
+      "a61"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a63",
+    "visit": "v21",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a64",
+    "visit": "v21",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a65",
+    "visit": "v21",
+    "kind": "交接材料",
+    "depends_on": [
+      "a64"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a66",
+    "visit": "v22",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a67",
+    "visit": "v22",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a68",
+    "visit": "v22",
+    "kind": "交接材料",
+    "depends_on": [
+      "a67"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a69",
+    "visit": "v23",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a70",
+    "visit": "v23",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a71",
+    "visit": "v23",
+    "kind": "交接材料",
+    "depends_on": [
+      "a70"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a72",
+    "visit": "v24",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a73",
+    "visit": "v24",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a74",
+    "visit": "v24",
+    "kind": "交接材料",
+    "depends_on": [
+      "a73"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a75",
+    "visit": "v25",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a76",
+    "visit": "v25",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a77",
+    "visit": "v25",
+    "kind": "交接材料",
+    "depends_on": [
+      "a76"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a78",
+    "visit": "v26",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a79",
+    "visit": "v26",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a80",
+    "visit": "v26",
+    "kind": "交接材料",
+    "depends_on": [
+      "a79"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a81",
+    "visit": "v27",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a82",
+    "visit": "v27",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a83",
+    "visit": "v27",
+    "kind": "交接材料",
+    "depends_on": [
+      "a82"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a84",
+    "visit": "v28",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a85",
+    "visit": "v28",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a86",
+    "visit": "v28",
+    "kind": "交接材料",
+    "depends_on": [
+      "a85"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a87",
+    "visit": "v29",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a88",
+    "visit": "v29",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a89",
+    "visit": "v29",
+    "kind": "交接材料",
+    "depends_on": [
+      "a88"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a90",
+    "visit": "v30",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a91",
+    "visit": "v30",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a92",
+    "visit": "v30",
+    "kind": "交接材料",
+    "depends_on": [
+      "a91"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a93",
+    "visit": "v31",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a94",
+    "visit": "v31",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a95",
+    "visit": "v31",
+    "kind": "交接材料",
+    "depends_on": [
+      "a94"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a96",
+    "visit": "v32",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a97",
+    "visit": "v32",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a98",
+    "visit": "v32",
+    "kind": "交接材料",
+    "depends_on": [
+      "a97"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a99",
+    "visit": "v33",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a100",
+    "visit": "v33",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a101",
+    "visit": "v33",
+    "kind": "交接材料",
+    "depends_on": [
+      "a100"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a102",
+    "visit": "v34",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a103",
+    "visit": "v34",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a104",
+    "visit": "v34",
+    "kind": "交接材料",
+    "depends_on": [
+      "a103"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  },
+  {
+    "id": "a105",
+    "visit": "v35",
+    "kind": "取号",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a106",
+    "visit": "v35",
+    "kind": "陪同检查",
+    "depends_on": [],
+    "required_recipient": "窗口",
+    "origin": "原约定"
+  },
+  {
+    "id": "a107",
+    "visit": "v35",
+    "kind": "交接材料",
+    "depends_on": [
+      "a106"
+    ],
+    "required_recipient": "家属",
+    "origin": "原约定"
+  }
+]
